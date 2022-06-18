@@ -9,4 +9,9 @@
       <initValue>'https://internal.digisit.nobubank.com/login'</initValue>
       <name>LinkBO</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>Timeout</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

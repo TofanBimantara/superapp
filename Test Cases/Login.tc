@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>370646d4-f977-40df-8aff-f9038077cb4d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>663cccf1-fe82-42b9-942f-2725f5ad6dad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbae42fa-ecee-499d-a1ed-c2f736fa93fa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'tofanb@nobubank.com'</defaultValue>
+      <description></description>
+      <id>663cccf1-fe82-42b9-942f-2725f5ad6dad</id>
+      <masked>false</masked>
+      <name>User</name>
+   </variable>
+   <variable>
+      <defaultValue>'tofanb@nobubank.com'</defaultValue>
+      <description></description>
+      <id>dbae42fa-ecee-499d-a1ed-c2f736fa93fa</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
 </TestCaseEntity>

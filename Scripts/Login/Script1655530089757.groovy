@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(GlobalVariable.LinkBO)
+
+WebUI.setText(findTestObject('LoginPage/OR001_InputUser'), User)
+
+WebUI.delay(GlobalVariable.Timeout)
+
+WebUI.setText(findTestObject('LoginPage/OR002_InputPassword'), Password)
+
+WebUI.delay(GlobalVariable.Timeout)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('LoginPage/OR003_LoginButton'))
+
