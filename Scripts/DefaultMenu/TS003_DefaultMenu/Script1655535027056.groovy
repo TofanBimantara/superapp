@@ -17,17 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.LinkBO)
+WebUI.callTestCase(findTestCase('Login/TS001_Login'), [('User') : 'tofanb@nobubank.com', ('Password') : 'tofanb@nobubank.com'])
 
-WebUI.setText(findTestObject('LoginPage/OR001_InputUser'), User)
+WebUI.click(findTestObject('DafaultMenuPage/OR006_MainMenuDefault'))
 
-WebUI.delay(GlobalVariable.Timeout)
+WebUI.click(findTestObject('DafaultMenuPage/OR007_SubMenuApp'))
 
-WebUI.setText(findTestObject('LoginPage/OR002_InputPassword'), Password)
+WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR008_EditButton'))
 
-WebUI.delay(GlobalVariable.Timeout)
+WebUI.selectOptionByIndex(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'), 1)
 
-WebUI.takeFullPageScreenshot()
-
-WebUI.click(findTestObject('LoginPage/OR003_LoginButton'))
+WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR011_UpdateButton'))
 
