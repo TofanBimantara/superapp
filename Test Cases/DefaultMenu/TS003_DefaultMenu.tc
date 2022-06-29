@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>73bd4307-c088-41c2-9214-7919f8c0c884</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ba77a0d8-d787-487f-8a70-b5572d4ce51a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'InActive'</defaultValue>
+      <description></description>
+      <id>ba77a0d8-d787-487f-8a70-b5572d4ce51a</id>
+      <masked>false</masked>
+      <name>Status</name>
+   </variable>
 </TestCaseEntity>

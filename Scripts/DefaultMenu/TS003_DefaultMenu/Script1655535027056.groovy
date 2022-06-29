@@ -29,11 +29,20 @@ WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR009_StatusDropDown'))
 
 WebUI.scrollToElement(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'), 0)
 
+if (Status == 'InActive') {
+    WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'))
+} else if (Status == 'ComingSoon') {
+    WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR013_StatusComingSoon'))
+} else {
+    WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR012_StatusActive'))
+}
 
-
-WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'))
-
+//WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'))
 WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR011_UpdateButton'))
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.click(findTestObject('Page_App Menu List  NOBU Dashboard/svg'))
+
+WebUI.callTestCase(findTestCase('Logout/TS002_logout'), [:], FailureHandling.STOP_ON_FAILURE)
 

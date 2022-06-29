@@ -17,9 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('Login/TS001_Login'), [('User') : 'tofanb@nobubank.com', ('Password') : 'tofanb@nobubank.com'], 
+   // FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('LogoutPage/OR004_Expand'))
 
 WebUI.delay(GlobalVariable.Timeout)
 
+WebUI.scrollToElement(findTestObject('LogoutPage/OR005_LogoutButton'), 0)
+
 WebUI.click(findTestObject('LogoutPage/OR005_LogoutButton'))
+
+WebUI.closeBrowser()
 
