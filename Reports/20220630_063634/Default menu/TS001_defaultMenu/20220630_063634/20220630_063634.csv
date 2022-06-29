@@ -1,0 +1,40 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001_defaultMenu,Chrome 102.0.5005.115,,,2022-06-30 06:36:40,2022-06-30 06:38:48,2m - 7.705s,FAILED
+,,,,,,,
+Test Cases/DefaultMenu/TS003_DefaultMenu,Chrome 102.0.5005.115,,,2022-06-30 06:36:41,2022-06-30 06:37:17,36.201s,PASSED
+"callTestCase(findTestCase(""Login/TS001_Login""), [""User"":""tofanb@nobubank.com"", ""Password"":""tofanb@nobubank.com""])",Chrome 102.0.5005.115,,,2022-06-30 06:36:42,2022-06-30 06:36:59,17.204s,PASSED
+"click(findTestObject(""DafaultMenuPage/OR006_MainMenuDefault""))",Chrome 102.0.5005.115,,,2022-06-30 06:36:59,2022-06-30 06:37:01,2.631s,PASSED
+"click(findTestObject(""DafaultMenuPage/OR007_SubMenuApp""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:01,2022-06-30 06:37:03,1.709s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR008_EditButton""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:03,2022-06-30 06:37:05,2.001s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR009_StatusDropDown""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:05,2022-06-30 06:37:06,1.122s,PASSED
+"scrollToElement(findTestObject(""DafaultMenuPage/PascaBayar/OR010_StatusInactive""), 0)",Chrome 102.0.5005.115,,,2022-06-30 06:37:06,2022-06-30 06:37:07,0.560s,PASSED
+"if (Status == ""InActive"")",Chrome 102.0.5005.115,,,2022-06-30 06:37:07,2022-06-30 06:37:07,0.541s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR011_UpdateButton""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:07,2022-06-30 06:37:08,0.559s,PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-06-30 06:37:08,2022-06-30 06:37:10,2.158s,PASSED
+"click(findTestObject(""Page_App Menu List  NOBU Dashboard/svg""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:10,2022-06-30 06:37:11,0.720s,PASSED
+"callTestCase(findTestCase(""Logout/TS002_logout""), [:], STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-06-30 06:37:11,2022-06-30 06:37:17,6.156s,PASSED
+,,,,,,,
+Test Cases/DefaultMenu/TS003_DefaultMenu,Chrome 102.0.5005.115,,,2022-06-30 06:37:17,2022-06-30 06:37:46,28.643s,PASSED
+"callTestCase(findTestCase(""Login/TS001_Login""), [""User"":""tofanb@nobubank.com"", ""Password"":""tofanb@nobubank.com""])",Chrome 102.0.5005.115,,,2022-06-30 06:37:17,2022-06-30 06:37:30,12.592s,PASSED
+"click(findTestObject(""DafaultMenuPage/OR006_MainMenuDefault""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:30,2022-06-30 06:37:32,2.466s,PASSED
+"click(findTestObject(""DafaultMenuPage/OR007_SubMenuApp""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:32,2022-06-30 06:37:33,1.176s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR008_EditButton""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:33,2022-06-30 06:37:35,1.640s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR009_StatusDropDown""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:35,2022-06-30 06:37:36,0.998s,PASSED
+"scrollToElement(findTestObject(""DafaultMenuPage/PascaBayar/OR010_StatusInactive""), 0)",Chrome 102.0.5005.115,,,2022-06-30 06:37:36,2022-06-30 06:37:36,0.519s,PASSED
+"if (Status == ""InActive"")",Chrome 102.0.5005.115,,,2022-06-30 06:37:36,2022-06-30 06:37:36,0.001s,PASSED
+"else if (Status == ""ComingSoon"")",Chrome 102.0.5005.115,,,2022-06-30 06:37:36,2022-06-30 06:37:37,0.609s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR011_UpdateButton""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:37,2022-06-30 06:37:38,0.571s,PASSED
+takeFullPageScreenshot(),Chrome 102.0.5005.115,,,2022-06-30 06:37:38,2022-06-30 06:37:39,1.878s,PASSED
+"click(findTestObject(""Page_App Menu List  NOBU Dashboard/svg""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:39,2022-06-30 06:37:40,0.448s,PASSED
+"callTestCase(findTestCase(""Logout/TS002_logout""), [:], STOP_ON_FAILURE)",Chrome 102.0.5005.115,,,2022-06-30 06:37:40,2022-06-30 06:37:46,5.721s,PASSED
+,,,,,,,
+Test Cases/DefaultMenu/TS003_DefaultMenu,Chrome 102.0.5005.115,,,2022-06-30 06:37:46,2022-06-30 06:38:48,1m - 2.107s,FAILED
+"callTestCase(findTestCase(""Login/TS001_Login""), [""User"":""tofanb@nobubank.com"", ""Password"":""tofanb@nobubank.com""])",Chrome 102.0.5005.115,,,2022-06-30 06:37:46,2022-06-30 06:37:59,12.863s,PASSED
+"click(findTestObject(""DafaultMenuPage/OR006_MainMenuDefault""))",Chrome 102.0.5005.115,,,2022-06-30 06:37:59,2022-06-30 06:38:01,2.309s,PASSED
+"click(findTestObject(""DafaultMenuPage/OR007_SubMenuApp""))",Chrome 102.0.5005.115,,,2022-06-30 06:38:01,2022-06-30 06:38:02,1.241s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR008_EditButton""))",Chrome 102.0.5005.115,,,2022-06-30 06:38:02,2022-06-30 06:38:09,7.059s,PASSED
+"click(findTestObject(""DafaultMenuPage/PascaBayar/OR009_StatusDropDown""))",Chrome 102.0.5005.115,,,2022-06-30 06:38:09,2022-06-30 06:38:15,6.365s,PASSED
+"scrollToElement(findTestObject(""DafaultMenuPage/PascaBayar/OR010_StatusInactive""), 0)",Chrome 102.0.5005.115,,,2022-06-30 06:38:15,2022-06-30 06:38:16,0.544s,PASSED
+"if (Status == ""InActive"")",Chrome 102.0.5005.115,,,2022-06-30 06:38:16,2022-06-30 06:38:16,0.001s,PASSED
+"else if (Status == ""ComingSoon"")",Chrome 102.0.5005.115,,,2022-06-30 06:38:16,2022-06-30 06:38:16,0.000s,PASSED
+else,Chrome 102.0.5005.115,,,2022-06-30 06:38:16,2022-06-30 06:38:48,31.682s,FAILED

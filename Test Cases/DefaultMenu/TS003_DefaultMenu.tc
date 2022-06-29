@@ -12,7 +12,7 @@
       <variableId>ba77a0d8-d787-487f-8a70-b5572d4ce51a</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'InActive'</defaultValue>
+      <defaultValue>'Active'</defaultValue>
       <description></description>
       <id>ba77a0d8-d787-487f-8a70-b5572d4ce51a</id>
       <masked>false</masked>

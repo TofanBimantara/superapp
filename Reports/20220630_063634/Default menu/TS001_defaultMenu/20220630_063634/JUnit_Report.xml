@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001_defaultMenu" time="127.705" tests="3" failures="1" errors="0">
+   <testsuite name="TS001_defaultMenu" tests="3" failures="1" errors="0" time="127.705" skipped="0" timestamp="2022-06-30 06:36:40" hostname="10 - DESKTOP-26FPGN9" id="Test Suites/Default menu/TS001_defaultMenu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634"/>
+         <property name="logFiles" value="C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545816730.png, C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545828377.png, C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545848636.png, C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545858062.png, C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545877509.png, C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545927946.png"/>
+         <property name="hostName" value="10 - DESKTOP-26FPGN9"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="f70f768ecc2496e24828fe7da2187889"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DefaultMenu/TS003_DefaultMenu" time="36.201" classname="Test Cases/DefaultMenu/TS003_DefaultMenu" status="PASSED">
+         <system-out><![CDATA[2022-06-30 06:36:41 - [TEST_CASE][PASSED] - Test Cases/DefaultMenu/TS003_DefaultMenu: Test Cases/DefaultMenu/TS003_DefaultMenu
+
+2022-06-30 06:36:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TS001_Login"), ["User":"tofanb@nobubank.com", "Password":"tofanb@nobubank.com"]): Call Test Case 'Test Cases/Login/TS001_Login' successfully
+
+2022-06-30 06:36:42 - [TEST_CASE][PASSED] - Test Cases/Login/TS001_Login: Test Cases/Login/TS001_Login
+
+2022-06-30 06:36:43 - [TEST_STEP][PASSED] - openBrowser(LinkBO): Browser is opened with url: 'https://internal.digisit.nobubank.com/login'
+
+2022-06-30 06:36:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-30 06:36:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-30 06:36:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://internal.digisit.nobubank.com/login'
+
+2022-06-30 06:36:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-30 06:36:48 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-30 06:36:48 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/OR001_InputUser"), User): Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR001_InputUser'
+
+2022-06-30 06:36:49 - [MESSAGE][PASSED] - Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR001_InputUser'
+
+2022-06-30 06:36:49 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:36:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/OR002_InputPassword"), Password): Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR002_InputPassword'
+
+2022-06-30 06:36:53 - [MESSAGE][PASSED] - Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR002_InputPassword'
+
+2022-06-30 06:36:53 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:36:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:36:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-30 06:36:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-30 06:36:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545816730.png]]
+
+2022-06-30 06:36:58 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/OR003_LoginButton")): Object: 'Object Repository/LoginPage/OR003_LoginButton' is clicked on
+
+2022-06-30 06:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/OR003_LoginButton' is clicked on
+
+2022-06-30 06:36:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TS001_Login' successfully
+
+2022-06-30 06:36:59 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/OR006_MainMenuDefault")): Object: 'Object Repository/DafaultMenuPage/OR006_MainMenuDefault' is clicked on
+
+2022-06-30 06:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/OR006_MainMenuDefault' is clicked on
+
+2022-06-30 06:37:01 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/OR007_SubMenuApp")): Object: 'Object Repository/DafaultMenuPage/OR007_SubMenuApp' is clicked on
+
+2022-06-30 06:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/OR007_SubMenuApp' is clicked on
+
+2022-06-30 06:37:03 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR008_EditButton")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR008_EditButton' is clicked on
+
+2022-06-30 06:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR008_EditButton' is clicked on
+
+2022-06-30 06:37:05 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR009_StatusDropDown")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR009_StatusDropDown' is clicked on
+
+2022-06-30 06:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR009_StatusDropDown' is clicked on
+
+2022-06-30 06:37:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("DafaultMenuPage/PascaBayar/OR010_StatusInactive"), 0): Scroll to object 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' successfully
+
+2022-06-30 06:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-30 06:37:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' successfully
+
+2022-06-30 06:37:07 - [TEST_STEP][PASSED] - if (Status == "InActive"): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' is clicked on
+
+2022-06-30 06:37:07 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR010_StatusInactive")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' is clicked on
+
+2022-06-30 06:37:07 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' is clicked on
+
+2022-06-30 06:37:07 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR011_UpdateButton")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR011_UpdateButton' is clicked on
+
+2022-06-30 06:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR011_UpdateButton' is clicked on
+
+2022-06-30 06:37:08 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-30 06:37:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-30 06:37:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545828377.png]]
+
+2022-06-30 06:37:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_App Menu List  NOBU Dashboard/svg")): Object: 'Object Repository/Page_App Menu List  NOBU Dashboard/svg' is clicked on
+
+2022-06-30 06:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_App Menu List  NOBU Dashboard/svg' is clicked on
+
+2022-06-30 06:37:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Logout/TS002_logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Logout/TS002_logout' successfully
+
+2022-06-30 06:37:11 - [TEST_CASE][PASSED] - Test Cases/Logout/TS002_logout: Test Cases/Logout/TS002_logout
+
+2022-06-30 06:37:11 - [TEST_STEP][PASSED] - click(findTestObject("LogoutPage/OR004_Expand")): Object: 'Object Repository/LogoutPage/OR004_Expand' is clicked on
+
+2022-06-30 06:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutPage/OR004_Expand' is clicked on
+
+2022-06-30 06:37:12 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:37:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:37:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("LogoutPage/OR005_LogoutButton"), 0): Scroll to object 'Object Repository/LogoutPage/OR005_LogoutButton' successfully
+
+2022-06-30 06:37:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-30 06:37:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogoutPage/OR005_LogoutButton' successfully
+
+2022-06-30 06:37:16 - [TEST_STEP][PASSED] - click(findTestObject("LogoutPage/OR005_LogoutButton")): Object: 'Object Repository/LogoutPage/OR005_LogoutButton' is clicked on
+
+2022-06-30 06:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutPage/OR005_LogoutButton' is clicked on
+
+2022-06-30 06:37:16 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-30 06:37:17 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-30 06:37:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Logout/TS002_logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DefaultMenu/TS003_DefaultMenu" time="28.643" classname="Test Cases/DefaultMenu/TS003_DefaultMenu" status="PASSED">
+         <system-out><![CDATA[2022-06-30 06:37:17 - [TEST_CASE][PASSED] - Test Cases/DefaultMenu/TS003_DefaultMenu: Test Cases/DefaultMenu/TS003_DefaultMenu
+
+2022-06-30 06:37:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TS001_Login"), ["User":"tofanb@nobubank.com", "Password":"tofanb@nobubank.com"]): Call Test Case 'Test Cases/Login/TS001_Login' successfully
+
+2022-06-30 06:37:17 - [TEST_CASE][PASSED] - Test Cases/Login/TS001_Login: Test Cases/Login/TS001_Login
+
+2022-06-30 06:37:17 - [TEST_STEP][PASSED] - openBrowser(LinkBO): Browser is opened with url: 'https://internal.digisit.nobubank.com/login'
+
+2022-06-30 06:37:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-30 06:37:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-30 06:37:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://internal.digisit.nobubank.com/login'
+
+2022-06-30 06:37:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-30 06:37:20 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-30 06:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/OR001_InputUser"), User): Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR001_InputUser'
+
+2022-06-30 06:37:21 - [MESSAGE][PASSED] - Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR001_InputUser'
+
+2022-06-30 06:37:21 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:37:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:37:24 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/OR002_InputPassword"), Password): Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR002_InputPassword'
+
+2022-06-30 06:37:25 - [MESSAGE][PASSED] - Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR002_InputPassword'
+
+2022-06-30 06:37:25 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:37:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:37:28 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-30 06:37:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-30 06:37:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545848636.png]]
+
+2022-06-30 06:37:29 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/OR003_LoginButton")): Object: 'Object Repository/LoginPage/OR003_LoginButton' is clicked on
+
+2022-06-30 06:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/OR003_LoginButton' is clicked on
+
+2022-06-30 06:37:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TS001_Login' successfully
+
+2022-06-30 06:37:30 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/OR006_MainMenuDefault")): Object: 'Object Repository/DafaultMenuPage/OR006_MainMenuDefault' is clicked on
+
+2022-06-30 06:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/OR006_MainMenuDefault' is clicked on
+
+2022-06-30 06:37:32 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/OR007_SubMenuApp")): Object: 'Object Repository/DafaultMenuPage/OR007_SubMenuApp' is clicked on
+
+2022-06-30 06:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/OR007_SubMenuApp' is clicked on
+
+2022-06-30 06:37:33 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR008_EditButton")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR008_EditButton' is clicked on
+
+2022-06-30 06:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR008_EditButton' is clicked on
+
+2022-06-30 06:37:35 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR009_StatusDropDown")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR009_StatusDropDown' is clicked on
+
+2022-06-30 06:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR009_StatusDropDown' is clicked on
+
+2022-06-30 06:37:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("DafaultMenuPage/PascaBayar/OR010_StatusInactive"), 0): Scroll to object 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' successfully
+
+2022-06-30 06:37:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-30 06:37:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' successfully
+
+2022-06-30 06:37:36 - [TEST_STEP][PASSED] - if (Status == "InActive"): null
+
+2022-06-30 06:37:36 - [TEST_STEP][PASSED] - else if (Status == "ComingSoon"): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR013_StatusComingSoon' is clicked on
+
+2022-06-30 06:37:36 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR013_StatusComingSoon")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR013_StatusComingSoon' is clicked on
+
+2022-06-30 06:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR013_StatusComingSoon' is clicked on
+
+2022-06-30 06:37:37 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR011_UpdateButton")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR011_UpdateButton' is clicked on
+
+2022-06-30 06:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR011_UpdateButton' is clicked on
+
+2022-06-30 06:37:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-30 06:37:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-30 06:37:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545858062.png]]
+
+2022-06-30 06:37:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_App Menu List  NOBU Dashboard/svg")): Object: 'Object Repository/Page_App Menu List  NOBU Dashboard/svg' is clicked on
+
+2022-06-30 06:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_App Menu List  NOBU Dashboard/svg' is clicked on
+
+2022-06-30 06:37:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Logout/TS002_logout"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Logout/TS002_logout' successfully
+
+2022-06-30 06:37:40 - [TEST_CASE][PASSED] - Test Cases/Logout/TS002_logout: Test Cases/Logout/TS002_logout
+
+2022-06-30 06:37:40 - [TEST_STEP][PASSED] - click(findTestObject("LogoutPage/OR004_Expand")): Object: 'Object Repository/LogoutPage/OR004_Expand' is clicked on
+
+2022-06-30 06:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutPage/OR004_Expand' is clicked on
+
+2022-06-30 06:37:41 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:37:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:37:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("LogoutPage/OR005_LogoutButton"), 0): Scroll to object 'Object Repository/LogoutPage/OR005_LogoutButton' successfully
+
+2022-06-30 06:37:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-30 06:37:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/LogoutPage/OR005_LogoutButton' successfully
+
+2022-06-30 06:37:44 - [TEST_STEP][PASSED] - click(findTestObject("LogoutPage/OR005_LogoutButton")): Object: 'Object Repository/LogoutPage/OR005_LogoutButton' is clicked on
+
+2022-06-30 06:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LogoutPage/OR005_LogoutButton' is clicked on
+
+2022-06-30 06:37:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-06-30 06:37:46 - [MESSAGE][PASSED] - Browser is closed
+
+2022-06-30 06:37:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Logout/TS002_logout' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DefaultMenu/TS003_DefaultMenu" time="62.107" classname="Test Cases/DefaultMenu/TS003_DefaultMenu" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DefaultMenu/TS003_DefaultMenu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-06-30 06:37:46 - [TEST_CASE][FAILED] - Test Cases/DefaultMenu/TS003_DefaultMenu: Test Cases/DefaultMenu/TS003_DefaultMenu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-06-30 06:37:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/TS001_Login"), ["User":"tofanb@nobubank.com", "Password":"tofanb@nobubank.com"]): Call Test Case 'Test Cases/Login/TS001_Login' successfully
+
+2022-06-30 06:37:46 - [TEST_CASE][PASSED] - Test Cases/Login/TS001_Login: Test Cases/Login/TS001_Login
+
+2022-06-30 06:37:46 - [TEST_STEP][PASSED] - openBrowser(LinkBO): Browser is opened with url: 'https://internal.digisit.nobubank.com/login'
+
+2022-06-30 06:37:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-06-30 06:37:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-06-30 06:37:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://internal.digisit.nobubank.com/login'
+
+2022-06-30 06:37:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-06-30 06:37:49 - [MESSAGE][PASSED] - Current window maximized
+
+2022-06-30 06:37:49 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/OR001_InputUser"), User): Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR001_InputUser'
+
+2022-06-30 06:37:50 - [MESSAGE][PASSED] - Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR001_InputUser'
+
+2022-06-30 06:37:50 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:37:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/OR002_InputPassword"), Password): Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR002_InputPassword'
+
+2022-06-30 06:37:54 - [MESSAGE][PASSED] - Text 'tofanb@nobubank.com' is set on object 'Object Repository/LoginPage/OR002_InputPassword'
+
+2022-06-30 06:37:54 - [TEST_STEP][PASSED] - delay(Timeout): Delayed 3 second(s)
+
+2022-06-30 06:37:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-06-30 06:37:57 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+2022-06-30 06:37:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-30 06:37:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545877509.png]]
+
+2022-06-30 06:37:58 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/OR003_LoginButton")): Object: 'Object Repository/LoginPage/OR003_LoginButton' is clicked on
+
+2022-06-30 06:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/OR003_LoginButton' is clicked on
+
+2022-06-30 06:37:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/TS001_Login' successfully
+
+2022-06-30 06:37:59 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/OR006_MainMenuDefault")): Object: 'Object Repository/DafaultMenuPage/OR006_MainMenuDefault' is clicked on
+
+2022-06-30 06:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/OR006_MainMenuDefault' is clicked on
+
+2022-06-30 06:38:01 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/OR007_SubMenuApp")): Object: 'Object Repository/DafaultMenuPage/OR007_SubMenuApp' is clicked on
+
+2022-06-30 06:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/OR007_SubMenuApp' is clicked on
+
+2022-06-30 06:38:02 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR008_EditButton")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR008_EditButton' is clicked on
+
+2022-06-30 06:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR008_EditButton' is clicked on
+
+2022-06-30 06:38:09 - [TEST_STEP][PASSED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR009_StatusDropDown")): Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR009_StatusDropDown' is clicked on
+
+2022-06-30 06:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/DafaultMenuPage/PascaBayar/OR009_StatusDropDown' is clicked on
+
+2022-06-30 06:38:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("DafaultMenuPage/PascaBayar/OR010_StatusInactive"), 0): Scroll to object 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' successfully
+
+2022-06-30 06:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-30 06:38:16 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DafaultMenuPage/PascaBayar/OR010_StatusInactive' successfully
+
+2022-06-30 06:38:16 - [TEST_STEP][PASSED] - if (Status == "InActive"): null
+
+2022-06-30 06:38:16 - [TEST_STEP][PASSED] - else if (Status == "ComingSoon"): null
+
+2022-06-30 06:38:16 - [TEST_STEP][FAILED] - else: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1655535027056.run(Script1655535027056.groovy:37)
+	... 13 more
+)
+
+2022-06-30 06:38:16 - [TEST_STEP][FAILED] - click(findTestObject("DafaultMenuPage/PascaBayar/OR012_StatusActive")): Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1655535027056.run(Script1655535027056.groovy:37)
+	... 13 more
+)
+
+2022-06-30 06:38:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div/div/div/ul/li[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-06-30 06:38:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1655535027056.run(Script1655535027056.groovy:37)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\10\\git\\superapp12\\Reports\\20220630_063634\\Default menu\\TS001_defaultMenu\\20220630_063634\\1656545927946.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-30 06:37:46 - [TEST_CASE][FAILED] - Test Cases/DefaultMenu/TS003_DefaultMenu: Test Cases/DefaultMenu/TS003_DefaultMenu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-30 06:36:40 - [TEST_SUITE][FAILED] - TS001_defaultMenu: Test Cases/DefaultMenu/TS003_DefaultMenu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-06-30 06:36:40 - [TEST_SUITE][FAILED] - TS001_defaultMenu: Test Cases/DefaultMenu/TS003_DefaultMenu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at TS003_DefaultMenu.run(TS003_DefaultMenu:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656545794832.run(TempTestSuite1656545794832.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DafaultMenuPage/PascaBayar/OR012_StatusActive' located by '/html/body/div[1]/div/div/div/ul/li[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
