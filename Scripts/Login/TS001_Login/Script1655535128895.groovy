@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.LinkBO)
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('LoginPage/OR001_InputUser'), User)
 
 WebUI.delay(GlobalVariable.Timeout)
@@ -30,3 +32,4 @@ WebUI.delay(GlobalVariable.Timeout)
 WebUI.takeFullPageScreenshot()
 
 WebUI.click(findTestObject('LoginPage/OR003_LoginButton'))
+

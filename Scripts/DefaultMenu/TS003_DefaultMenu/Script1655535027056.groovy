@@ -25,7 +25,15 @@ WebUI.click(findTestObject('DafaultMenuPage/OR007_SubMenuApp'))
 
 WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR008_EditButton'))
 
-WebUI.selectOptionByIndex(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'), 1)
+WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR009_StatusDropDown'))
+
+WebUI.scrollToElement(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'), 0)
+
+
+
+WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR010_StatusInactive'))
 
 WebUI.click(findTestObject('DafaultMenuPage/PascaBayar/OR011_UpdateButton'))
+
+WebUI.takeFullPageScreenshot()
 

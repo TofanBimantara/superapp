@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>OR010_StatusInactive</name>
+   <name>OR013_StatusComingSoon</name>
    <tag></tag>
-   <elementGuidId>0edcc8b0-6b8a-493e-b539-be2843638da4</elementGuidId>
+   <elementGuidId>c3ed9de9-875a-440c-b387-6c180c7f25e1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div/div/ul/li[2]</value>
+         <value>/html/body/div[3]/div/div/div/ul/li[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
